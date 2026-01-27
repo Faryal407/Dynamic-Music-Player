@@ -1,6 +1,7 @@
 body{
     background-color: black;
-    background-image: linear-gradient(to right, black, rgb(57, 56, 56), rgb(124, 119, 119))
+    background-image: linear-gradient(to right, black, rgb(57, 56, 56), rgb(124, 119, 119));
+    background-repeat: no-repeat;
 }
 
 /* first page */
