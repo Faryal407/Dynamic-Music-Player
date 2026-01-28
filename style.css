@@ -1,15 +1,19 @@
 body{
     background-color: black;
-    background-image: linear-gradient(to right, black, rgb(57, 56, 56), rgb(124, 119, 119));
+    background-image: linear-gradient(to right, rgb(152, 130, 130), rgb(182, 12, 63), rgb(230, 100, 139));
     background-repeat: no-repeat;
 }
-
-/* first page */
+.header{
+   font-size: 60px;
+   font-family: "Imperial Script", cursive;
+    text-align: center;
+}
 .heading{
     font-size: 60px;
-    font-family: "Rouge script";
+   font-family: "Imperial Script", cursive;
     text-align: center;
     color: aliceblue;
+    display: inline-block;
 }
 .back{
       display: flex;
@@ -22,11 +26,13 @@ body{
     height: 500px;
     border-radius: 50px;
     box-shadow: 20px 20px 80px rgb(13, 171, 228);
+    border: 5px solid rgb(228, 13, 120) ;
 }
 .back:hover{
     background-image: url(./images/background2\ gift.gif);
     cursor: pointer;
-     box-shadow: 20px 20px 80px rgb(228, 13, 120);
+     box-shadow: 20px 20px 80px rgb(20, 20, 20);
+       border: 2px solid rgb(13, 171, 228);
 }
 .button{
     text-decoration: none;
@@ -49,55 +55,4 @@ body{
   color: aliceblue;
   cursor: pointer;
   text-decoration: none;
-}
-
-
-/* second page */
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-.title{
-    width: 300px;
-    border-radius: 30px;
-}
-.player{
-    width: 300px;
-    margin: 50px auto;
-    text-align: center;
-    background-color: gold;
-    border-radius: 30px;
-    box-shadow: 5px 10px 30px rgb(135, 137, 137);
-}
-.player:hover{
-    box-shadow: 15px 10px 30px rgb(13, 182, 234);
-}
-#progress{
-    width: 60%;
-    margin: 10px;
-    accent-color: white;
-}
-#time{
-    color: black;
-    font-size: 10px;
-}
-.sname{
-    font-size: 25px;
-     font-family: "IBM Plex Serif", serif;
-} 
-.btn{
-    border-radius: 50px;
-     box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-     padding: 2px;
-     margin: 5px;
-     transition: transform 0.4s;
-     cursor: pointer;
-}
-.btn:hover{
-     transform: scale(1.03);
-     box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
-}
-.btn:active{
-      box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.4);
 }
