@@ -46,6 +46,8 @@ body{
     width: 60%;
     margin: 10px;
     accent-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 #time{
     color: black;
@@ -55,6 +57,9 @@ body{
     font-size: 25px;
     font-family: "Imperial Script", cursive;
 } 
+.aname{
+ margin-bottom: 10px;
+}
 .btn{
     border-radius: 50px;
      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
